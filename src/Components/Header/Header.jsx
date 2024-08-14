@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header({appName}) {
     return (
-        <header>{appName}</header>
+        <header style={{textAlign: 'center'}}>{appName}</header>
     )
 }
 
