@@ -1,8 +1,11 @@
 import React from 'react';
-
+import Header from "./Components/Header/Header.jsx";
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+    return (
+        <>
+            <Header appName="My first static web app deployed in Azure"/>
+        </>
+    );
 }
 
 export default App;
